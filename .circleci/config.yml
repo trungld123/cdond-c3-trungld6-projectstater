@@ -217,7 +217,7 @@ jobs:
           fingerprints:
             - "9a:a6:fb:43:54:dc:c0:ff:9d:2f:9b:b9:67:ed:8e:f5"
       - attack_workspace:
-          at: ~/
+          at: /tmp/workspace
       - install_ansible
       - run:
           name: Configfure server
